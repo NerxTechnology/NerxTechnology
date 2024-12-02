@@ -1,0 +1,11 @@
+body {
+	background-color: lightblue;
+	color: darkblue;
+}
+
+article {
+
+   border: solid;
+   border-color: darkblue;
+   border-width: 1 0 1 0;
+}
