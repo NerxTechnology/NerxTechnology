@@ -1,7 +1,28 @@
+
 body {
+   font-family: Tahoma, Verdana, sans-serif;
+   max-width: 1000px;
+   width: 96%;
+   margin: auto;
 	background-color: #ddd4c4;
 	color: #4f433a;
+
+
+nav ul {
+   float: left;
 }
+
+nav li {
+   display: inline;
+}
+
+hr {
+   color: #ddd4c4;
+   border-color: #d1c3ae;
+   visibility: hidden;
+}
+
+
 
 article {
    margin: auto;
@@ -30,11 +51,3 @@ h3 {
    font-size: 1.2rem;
    padding-right: 2em;
 }
-
-
-body {
-      font-family: Tahoma, Verdana, sans-serif;
-      max-width: 1000px;
-      width: 96%;
-      margin: auto;
-      }
