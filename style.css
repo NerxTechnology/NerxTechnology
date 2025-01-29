@@ -11,14 +11,15 @@ nav ul {
    background-color: #d1c3ae;
    padding-top: 0.5em;
    padding-bottom: 0.5em;
-   margin-top: 0em;
+   padding-left: 1em;
+   margin-bottom: 0.5em;
+   margin-top: 0.5em;
 }
 
 nav li {
    display: inline;
 
-   margin-right: 2em;
-   /* font-weight: bold; */
+   margin-right: 1.5em;
    font-weight: bolder;
 }
 
