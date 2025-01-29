@@ -7,13 +7,32 @@ body {
 	background-color: #ddd4c4;
 	color: #4f433a;
 
-
 nav ul {
-   float: left;
+   background-color: #d1c3ae;
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+   margin-top: 0em;
 }
 
 nav li {
    display: inline;
+
+   margin-right: 2em;
+   /* font-weight: bold; */
+   font-weight: bolder;
+}
+
+nav li a {
+   color: #f1e9da;
+   text-decoration: none;
+}
+nav li a:visted {
+   color: #f1e9da;
+}
+
+nav li a:hover {
+   color: #4f433a;
+   
 }
 
 hr {
@@ -23,6 +42,9 @@ hr {
 }
 
 
+main {
+   float:right;
+}
 
 article {
    margin: auto;
