@@ -74,8 +74,8 @@ article {
    margin: auto;
 }
 
-h2 {
-   font-weight: normal;
+h2.lead {
+   font-weight: bold;
    font-size: 1.4em;
    border: solid;
    border-color: #4f433a;
@@ -86,6 +86,16 @@ h2 {
    background-color: #d1c3ae;
    margin-left: -10px;
    margin-right: -10px;
+}
+
+h2.lead a{
+   color: #4f433a;
+   text-decoration: none;
+}
+
+h2.lead a:hover {
+   color: #f1e9da;
+   
 }
 
 p {
