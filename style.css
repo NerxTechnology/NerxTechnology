@@ -6,6 +6,12 @@ body {
    margin: auto;
 	background-color: #ddd4c4;
 	color: #4f433a;
+}
+
+figcaption {
+   color: #7a6b60;
+   font-size: smaller;
+}
 
 nav ul {
    background-color: #d1c3ae;
@@ -14,6 +20,16 @@ nav ul {
    padding-bottom: 0.5em;
    margin-bottom: 0.5em;;
    margin-top: 0.5em;
+}
+
+footer {
+   clear:both;
+}
+
+footer ul {
+   list-style-type: none;
+   padding-left: 0.7em;
+
 }
 
 nav li {
@@ -37,10 +53,16 @@ nav li a:hover {
    
 }
 
+img.screenshot {
+   max-width: 96%;
+}
+img.cover {
+   max-width: 100%;
+}
+
 hr {
-   color: #ddd4c4;
-   border-color: #d1c3ae;
-   visibility: hidden;
+   clear: both;
+   
 }
 
 
