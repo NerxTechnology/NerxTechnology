@@ -8,6 +8,13 @@ body {
 	color: #4f433a;
 }
 
+a {
+   color: #5c748a;
+}
+a:hover {
+   color: #29333d;
+}
+
 figcaption {
    color: #7a6b60;
    font-size: smaller;
